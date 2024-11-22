@@ -1,0 +1,55 @@
+h1
+{
+	font-family: 'Crete Round',serif;
+	font-size: 35px;
+	color: #444;
+    font-weight: bold;
+    float: left;
+    display: inline-block;
+    margin-bottom: 23px;
+
+}
+.orange
+{
+  color: #ff7a00;
+}
+body
+{
+    background-color: lightgray;
+}
+.head
+{
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0px;
+    font-size: 25px;
+    color: black;
+}
+.card
+{
+    border: none;
+}
+.btn-dark:hover
+{
+    background-color: #ff7a00;
+    border: none;
+}
+.btn-primary
+{
+    border: none;
+}
+a
+{
+    color: #6c757d;   
+    font-size: 13px;
+    text-decoration: none;
+   font-family: "Segoe UI","Roboto","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+a:hover {
+    text-decoration: underline;
+    color:#6c757d ;
+  }

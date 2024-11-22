@@ -1,0 +1,108 @@
+h1
+{
+	font-family: 'Crete Round',serif;
+	font-size: 45px;
+	color: #444;
+
+}
+h2
+{
+color: #444;
+font-size: 55px;
+}
+h3
+{
+	font-size: 30px;
+	color: #444;
+}
+h4
+{
+	font-size: 24px;
+	color:#444;
+}
+p
+{
+	line-height: 20px;/*hauteur des lignes*/
+	color:#777;
+}
+
+ul
+{
+	list-style: none;/*tna77i les boules*/
+}
+a
+{
+	text-decoration: none;/*tna7i star illi ta7t l ktiba*/
+	color: #444;
+}
+.wrapper
+{   
+	width: 1000px;
+    margin: 0 auto;
+	padding: 0 10px;/*twalli m3ach las9a*/
+	
+}
+.orange
+{
+  color: #ff7a00;
+}
+.clear
+{
+	clear: both;
+}
+small
+{
+	font-size: 13px;
+	font-style: italic;
+}
+/*HEADER*/
+header
+{
+	height: 120px;
+    box-shadow: 0px 0px 10px 3px grey;
+}
+header h1
+{
+	float: left; /*thizha 3al isar*/
+	margin-top: 32px;
+}
+header nav
+{
+   float: right;/*thizhom 3al imin*/
+   margin-top: 50px;
+}
+header nav ul li
+{
+ display: inline-block;/*trodhom ma7toutin bil 3ordh*/
+ float: left;
+
+}
+a:hover
+{
+	color: #ff7a00;
+}
+header nav ul li a
+{
+	text-transform: uppercase;/*en majuscule*/
+	font-weight: bold;/*en gras*/
+	margin-right: 20px;/*tba3adhom 3ala b3adhhom*/
+}
+/*footer*/
+footer
+{
+	height: 260px;
+	background-color: #444;
+}
+footer h1
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 80px;/*tba3adha mil bord*/
+}
+.copyright
+{
+ text-align: center;
+ font-weight: bold;
+ padding-top: 30px;
+ color:#777;
+}

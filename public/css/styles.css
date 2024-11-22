@@ -1,0 +1,289 @@
+/*GENERAL*/
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: Arial,sans-serif;
+	font-size: 15px;
+}
+h1
+{
+	font-family: 'Crete Round',serif;
+	font-size: 45px;
+	color: #444;
+
+}
+h2
+{
+color: #444;
+font-size: 55px;
+}
+h3
+{
+	font-size: 30px;
+	color: #444;
+}
+h4
+{
+	font-size: 24px;
+	color:#444;
+}
+p
+{
+	line-height: 20px;/*hauteur des lignes*/
+	color:#777;
+}
+
+ul
+{
+	list-style: none;/*tna77i les boules*/
+}
+a
+{
+	text-decoration: none;/*tna7i star illi ta7t l ktiba*/
+	color: #444;
+}
+.wrapper
+{   
+	width:1000px;
+    margin: 0 auto;
+	padding: 0 10px;/*twalli m3ach las9a*/
+	
+}
+.orange
+{
+  color: #ff7a00;
+}
+.clear
+{
+	clear: both;
+}
+small
+{
+	font-size: 13px;
+	font-style: italic;
+}
+/*HEADER*/
+header
+{
+	height: 120px;
+}
+header h1
+{
+	float: left; /*thizha 3al isar*/
+	margin-top: 32px;
+}
+header nav
+{
+   float: right;/*thizhom 3al imin*/
+   margin-top: 50px;
+}
+header nav ul li
+{
+ display: inline-block;/*trodhom ma7toutin bil 3ordh*/
+ float: left;
+
+}
+a:hover
+{
+	color: #ff7a00;
+}
+header nav ul li a
+{
+	text-transform: uppercase;/*en majuscule*/
+	font-weight: bold;/*en gras*/
+	margin-right: 20px;/*tba3adhom 3ala b3adhhom*/
+}
+/*main-image*/
+#main-image
+{
+	height: 580px;
+	background: url('../images/main.jpg') center;
+}
+#main-image h2
+{
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 150px 0 40px 0;
+  margin-bottom: 20px /*20px far8in ta7t l ktiba*/
+}
+.button-1:hover
+{
+	background: #02b8dd;/*twalli zar9a ki t7ot souris fou9ha*/
+}
+.button-1
+{
+	width: 120px;
+	display: block;
+	height: 50px;
+	background:#ff7a00;
+	color: #fff;
+	font-size: 20px;
+	margin: 0 auto;/*centrer le button*/
+	line-height: 50px;/*hauteur de ligne*/
+	text-align:center;/*centrer"par ici"*/
+	border-radius: 3px/*cadre ta3 l button m3awej chwaya 3ala jnabet*/
+}
+
+#steps ul
+{
+  margin: 80px 0;
+
+ }
+#steps ul li
+{
+   width: 300px;
+  float: left;/*ywaliw bjnab b3adhhom mouch ta7t b3adhhom*/
+  padding-top: 140px;/*l blasa l far8a bin l main image w les elements hiya bidha chtibda l'icon fou9ha*/
+  text-align: center;
+  margin-right: 10px/*l'espace bin les paragraphes*/
+}
+#steps h4
+{
+	text-transform: uppercase;
+	margin-bottom: 20px;/*h4 est collé au paragraphe donc on ajoute un marge en bas*/
+}
+#steps p
+{
+  margin-bottom: 20px;
+  color:#777;
+}
+#step-1
+{
+ background:url('../images/steps-icon-1.png') no-repeat top center;/*no repeat:5ater ki mat7othech to93od taswira tit3awed 3al paragraphe lkol*/;
+ /*top:mettre l'icon en haut de notre element*/
+ /*center:centrer l'icon par rapport a l'element*/;
+}
+#step-2
+{
+  background:url('../images/steps-icon-2.png') no-repeat top center;
+}
+#step-3
+{
+  background:url('../images/steps-icon-3.png') no-repeat top center;
+}	
+/*possibilities*/
+#possibilites
+{
+	background-color: #efefef;/*couleur gris du fond*/
+	padding: 60px 0;
+}
+#possibilites article
+{
+	width: 460px;
+	height:270px;
+	float: left;
+	border-radius: 10px;
+}
+#possibilites article:first-child /*juste le premier article*/
+{
+	margin-right: 20px;
+}
+.overlay
+{
+	background: rgba(255,255,255,0.95);/*transparente*/
+	height: 100%;
+	width: 190px;
+	padding: 20px;
+	border-radius: 10px 0 0 18px;
+	text-align: center;
+}
+ article h4
+{
+	text-align: center;
+	border-bottom: 1px solid #ddd;/*un petit trait*/
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+
+}
+#possibilites p
+{
+	text-align: center;
+	color: #777;
+	margin-bottom: 20px;
+}
+.button-2
+{
+	color: #fff;
+	background-color: #ff7a00;
+	padding: 6px 20px;
+	border-radius: 3px;
+}
+.button-2:hover
+{
+	color:#fff;
+	background-color: #02b8dd;
+}
+/*contact*/
+#contact
+{
+	padding: 60px 0;
+	text-align: center;
+}
+#contact h3
+{  
+   width: 400px;
+   text-transform: uppercase;
+   margin: 0 auto 20px auto;
+   padding-bottom: 20px;
+   border-bottom: 1px solid #02b8dd;
+}
+form
+{
+	margin: 60px 0 20px 0;
+}
+label
+{
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px;/*l'espacer de lacase*/
+	color: #777;
+}
+input[type="text"]/*toutes les inputs qui ont un attribut type=text*/
+{
+  padding:10px;    /*espacer le texte des bords*/
+  font-size: 20px; /*taille du text dedans*/
+  margin-right: 20px;   /*5ater l case loula las9a fi kilmet email w case thenya las9a fil boutton*/
+  border:2px solid #ddd;/*la case*/
+  border-radius: 3px;
+
+}
+.button-3
+{
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	padding:11px;/*tba3ad l "ok" mil bord*/
+	background-color: #02b8dd;
+	border-style: none;
+	border-radius: 3px;
+}
+.button-3:hover /*ki tinzel 3liha twalli gris*/
+{
+	color: #444;
+	background-color: #02b8dd;
+}
+/*footer*/
+footer
+{
+	height: 260px;
+	background-color: #444;
+}
+footer h1
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 80px;/*tba3adha mil bord*/
+}
+.copyright
+{
+ text-align: center;
+ font-weight: bold;
+ padding-top: 30px;
+ color:#777;
+}
